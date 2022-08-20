@@ -1,0 +1,15 @@
+.wraperbox {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content {
+  width: 80%;
+  height: 200px;
+  float: left;
+}
+.blog-img {
+  width: 20%;
+  height: 200px;
+  float: left;
+}
