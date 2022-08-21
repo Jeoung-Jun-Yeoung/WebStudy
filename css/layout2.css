@@ -1,0 +1,122 @@
+div {
+  box-sizing: border-box;
+}
+input {
+  box-sizing: border-box;
+}
+textarea {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/shoes.jpeg");
+  background-size: cover;
+  background-position: center;
+  /*
+  background-size: cover; -> 다채우기
+  background-size: contain; -> 배경이 안짤린다.
+  
+  */
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  /* filter: brightness(70%); 
+    배경에 필터를 쓸수 있는데 안에 들어가는 글자까지 필터의 영향을 받는다.
+  */
+  /* 배경은 꽉차지 않으면 반복된다. */
+  padding: 5px;
+
+  position: relative;
+}
+.main-title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+  /* margin collaps
+   box 2개가 곂침.
+  */
+}
+.main-content {
+  color: white;
+  text-align: center;
+}
+.main-button {
+  font-size: 20px;
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.temp-box {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -100px;
+}
+.form-box {
+  width: 60%;
+  height: 700px;
+  margin: auto;
+  max-width: 600px;
+  background-color: gray;
+  padding: 20px;
+}
+.inform-box {
+  padding: 30px;
+  width: 100%;
+  height: 80%;
+  background-color: white;
+}
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+.form-input {
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.w-100 {
+  width: 100%;
+  padding: 5px;
+}
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.yellowbtn {
+  background-color: orange;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+}
+/* position: relative; -> 내 현재 위치를 기준점
+
+/* z-index: 높을수록 앞에 온다.  */
