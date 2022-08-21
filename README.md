@@ -24,6 +24,10 @@ navbar 만들기 및 css 셀렉터 연습
 
 position 속성 이용. 회색 박스 곂치기
 
-## 5. form태그 연습
+## 5. form 태그 연습
 
 <img src="./formtest2.png">
+
+## 6. table 태그 연습
+
+<img src="./cart.png">
