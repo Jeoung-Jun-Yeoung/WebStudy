@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "gulim";
 }
 div {
   box-sizing: border-box;
@@ -27,9 +28,21 @@ table {
   border: 0;
   background-color: aquamarine;
 }
+.btn:hover {
+  background: chocolate;
+}
+.btn:focus {
+  background: red;
+}
+.btn:active {
+  background: blue;
+}
 .cart-table td,
 .cart-table th {
   vertical-align: middle;
   padding: 15px;
   border-bottom: 1px solid #c2d3de;
+}
+.temp:focus {
+  border-bottom: 4px solid red;
 }

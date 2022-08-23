@@ -1,0 +1,22 @@
+div {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.flex-container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  background-color: palevioletred;
+}
+.flex-item {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin: 5px;
+  width: 100px;
+}
+/* 
+flex의 특징 : 최대한 폭을 차지하려고 함. 정확한 사이즈 반영아님.
+*/
