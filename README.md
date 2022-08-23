@@ -32,6 +32,10 @@ position 속성 이용. 회색 박스 곂치기
 
 <img src="./cart.png">
 
-## 6. flex이용한 레이아웃 디자인연습
+## 7. flex이용한 레이아웃 디자인연습
 
 <img src="./flex.png">
+
+## 8. @media쿼리를 이용한 반응형 디자인 연습
+
+<img src="./reposive.gif">
