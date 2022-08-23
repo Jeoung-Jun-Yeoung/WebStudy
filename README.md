@@ -38,4 +38,4 @@ position 속성 이용. 회색 박스 곂치기
 
 ## 8. @media쿼리를 이용한 반응형 디자인 연습
 
-<img width="80%" src="./reposinve.gif">
+<img width="80%" src="./responsive.gif">
