@@ -16,6 +16,17 @@ p {
   justify-content: center;
   align-items: center;
 }
+.container i {
+  font-size: 50px;
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 20px;
+}
 .white-box {
   width: 80%;
   display: flex;
