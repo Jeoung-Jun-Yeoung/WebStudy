@@ -43,3 +43,7 @@ position 속성 이용. 회색 박스 곂치기
 ## 9. icon 입력해보기
 
 <img src="./icon.png">
+
+## 10. 애니메이션 연습
+
+<img width="80%" src="./animation.gif">
