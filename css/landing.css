@@ -98,6 +98,7 @@ h4 {
   margin: auto;
 }
 .item {
+  text-align: center;
   margin: auto;
 }
 .item i {
@@ -140,10 +141,63 @@ h4 {
 }
 .img-container {
   width: 100%;
-  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
 }
-.img-container img {
+.img-1 {
+  position: relative;
+  float: left;
   width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/img/portfolio-1.jpeg);
+  background-size: cover;
+}
+.img-2 {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/img/portfolio-2.jpeg);
+  background-size: cover;
+}
+.img-3 {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/img/portfolio-3.jpeg);
+  background-size: cover;
+}
+.img-4 {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/img/portfolio-4.jpeg);
+  background-size: cover;
+}
+.white-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border: 0px solid white;
+}
+.white-box:hover {
+  border: 30px solid white;
+  transition: all, 1s;
+}
+.img-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
 }
 .footer {
   margin-top: 50px;
