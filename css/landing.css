@@ -26,6 +26,7 @@ h4 {
   flex-direction: column;
   justify-content: left;
   width: 50%;
+  padding-bottom: 0px;
   margin-right: 50px;
 }
 .head-right {
@@ -35,6 +36,7 @@ h4 {
 }
 .head-right-img {
   position: absolute;
+
   width: 300px;
   bottom: 0px;
 }
@@ -225,4 +227,27 @@ h4 {
   align-items: center;
   justify-content: center;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .head-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* flex-direction: column; */
+  }
+  .head-left {
+    justify-content: center;
+    align-items: center;
+  }
+  .head-right {
+    margin-top: 0px;
+  }
+  .head-right-img {
+    position: relative;
+  }
+  .icon {
+    display: block;
+  }
 }
