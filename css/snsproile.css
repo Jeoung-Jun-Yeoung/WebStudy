@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #f7f9fc;
+  }
+  div {
+    box-sizing: border-box;
+  }
+  .profile{
+    width: 800px;
+    height: 200px;
+    background-color: black;
+  }
